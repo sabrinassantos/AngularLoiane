@@ -19,4 +19,5 @@ import { MeuPrimeiro2Component } from './meu-primeiro2/meu-primeiro2.component';
   providers: [],
   bootstrap: [AppComponent]
 })
+
 export class AppModule { }
