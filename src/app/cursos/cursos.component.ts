@@ -13,8 +13,8 @@ export class CursosComponent implements OnInit {
   nomePortal: string;
   cursos: string[];
 
-  constructor() {
-    var servico = new CursosService();
+  constructor(private cursosService: CursosService) {
+    this.cursos = cursosService.getCursos();
 
   }
 
